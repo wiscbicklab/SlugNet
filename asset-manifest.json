@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SlugNet/static/css/main.80a37e8d.css",
+    "main.js": "/SlugNet/static/js/main.9db274f1.js",
+    "static/js/453.7d347ce3.chunk.js": "/SlugNet/static/js/453.7d347ce3.chunk.js",
+    "index.html": "/SlugNet/index.html",
+    "main.80a37e8d.css.map": "/SlugNet/static/css/main.80a37e8d.css.map",
+    "main.9db274f1.js.map": "/SlugNet/static/js/main.9db274f1.js.map",
+    "453.7d347ce3.chunk.js.map": "/SlugNet/static/js/453.7d347ce3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80a37e8d.css",
+    "static/js/main.9db274f1.js"
+  ]
+}
