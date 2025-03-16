@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar';
@@ -17,7 +16,6 @@ function App() {
       </header>
       <body>
         <h1 className="Title">Welcome to Slugnet hosted by UW Madison Extension</h1>
-        
         <Router>
           <NavBar />
           <div className="Content">

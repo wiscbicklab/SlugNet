@@ -1,24 +1,25 @@
 .auth-container {
-  max-width: 95%;
+  max-width: 100%;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid red;
   border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
 }
 
 .auth-container h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .auth-container iframe {
   width: 100%;
-  max-width: 800px;
-  min-height: 500px;
+  min-height: 800px;
   padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-top: 10px;
+  border-width: 0px;
 }
 
