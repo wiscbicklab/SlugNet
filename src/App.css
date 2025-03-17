@@ -12,6 +12,10 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-size: 25px;
+}
+
 .App {
   text-align: center;
   min-height: 100vh;
