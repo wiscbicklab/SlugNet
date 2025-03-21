@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './NavBar';
 import Home from './Home';
 import FieldHistory from './FieldHistory';
-import SignUp from './SignUp';
+import Register from './Register';
 import Upload from './Upload';
 import Map from './Map';
 import About from './About';
@@ -21,7 +21,7 @@ function App() {
           <div className="Content">
             <Routes>
               <Route path="/home" element={<Home />} />
-              <Route path="/signUp" element={<SignUp />} />
+              <Route path="/register" element={<Register />} />
               <Route path="/fieldHistory" element={<FieldHistory />} />
               <Route path="/upload" element={<Upload />} />
               <Route path="/map" element={<Map />} />

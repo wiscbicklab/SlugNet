@@ -14,7 +14,7 @@ function NavBar() {
           <ul className="nav-links">
             <li><Link to="/" >Home</Link></li>
             <li><Link to="/FieldHistory" >Field History</Link></li>
-            <li><Link to="/SignUp" >Sign Up</Link></li>
+            <li><Link to="/Register" >Registration</Link></li>
             <li><Link to="/Upload" >Upload Photos</Link></li>
             <li><Link to="/Map" >View Map</Link></li>
             <li><Link to="/About" >About</Link></li>
