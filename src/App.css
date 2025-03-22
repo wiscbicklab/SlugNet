@@ -30,7 +30,8 @@ h1 {
 }
 
 .Logo {
-  max-height: 100px;
+  max-height: 75px;
+  align-self: flex-end;
 }
 
 .Title {
