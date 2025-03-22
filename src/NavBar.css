@@ -3,6 +3,7 @@
   overflow: hidden;
   background-color: #c5050c;
   font-family: Arial;
+  justify-content: center;
 }
 
 /* Links inside the navbar */
@@ -40,7 +41,6 @@
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -63,7 +63,8 @@
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+/* Show the dropdown menu on hover 
 .dropdown:hover .dropdown-content {
   display: block;
 } 
+ */
