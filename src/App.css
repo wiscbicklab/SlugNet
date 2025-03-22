@@ -2,6 +2,7 @@
   --bg-color: white;
   --text-color: black;
   --link-color: #007bff;
+  --alt-color: #c5050c;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .App {
@@ -21,9 +22,21 @@ h1 {
   min-height: 100vh;
 }
 
+.Head {
+  display: flex;  /* Enables horizontal layout */
+  gap: 10px; /* Adds spacing between items */
+  padding: 10px;
+  justify-content: center;
+}
+
+.Logo {
+  max-height: 100px;
+}
+
 .Title {
   position: center;
   text-align: center;
+  color: var(--alt-color);
 }
 
 .App-header {

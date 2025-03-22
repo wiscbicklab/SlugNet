@@ -15,7 +15,10 @@ function App() {
       <header className="App-header">
       </header>
       <body>
-        <h1 className="Title">Welcome to Slugnet hosted by UW Madison Extension</h1>
+        <div className="Head">
+          <h1 className="Title">Welcome to Slugnet hosted by UW Madison Extension</h1>
+          <img className="Logo" alt="Logo Failed to Load" src="./Images/Agriculture_Institute_Division_Of_Extension_University_Of_Wisconsin_Madison_Color_Logo.png" />
+        </div>
         <Router>
           <NavBar />
           <div className="Content">
