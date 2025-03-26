@@ -14,7 +14,11 @@ body {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 15px;
 }
 
 .App {
@@ -22,11 +26,25 @@ h1 {
   min-height: 100vh;
 }
 
+.Title {
+  position: center;
+  text-align: center;
+  color: var(--alt-color);
+  margin: 10px, 10px, 0px, 10px;
+}
+
+.subTitle {
+  text-align: right;
+  color: var(--alt-color);
+  margin: 0px, 10px, 10px, 10px;
+}
+
 .Head {
   display: flex;  /* Enables horizontal layout */
   gap: 10px; /* Adds spacing between items */
   padding: 10px;
   justify-content: center;
+  height: 10%;
 }
 
 .Logo {
@@ -34,11 +52,7 @@ h1 {
   align-self: flex-end;
 }
 
-.Title {
-  position: center;
-  text-align: center;
-  color: var(--alt-color);
-}
+
 
 .App-header {
   padding: 20px;

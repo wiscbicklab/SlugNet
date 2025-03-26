@@ -12,7 +12,7 @@ function NavBar() {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (!event.target.closest('.dropdown')) {
-        setShow(false);
+        handleClose();
       }
     };
 

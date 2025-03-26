@@ -12,11 +12,16 @@ import About from './About';
 function App() {
   return (
     <div className={`App`}>
-      <header className="App-header">
-      </header>
       <div className="Head">
-        <h1 className="Title">Welcome to Slugnet hosted by UW Madison Extension</h1>
-        <img className="Logo" alt="Logo Failed to Load" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Agriculture_Institute_Division_Of_Extension_University_Of_Wisconsin_Madison_Color_Logo.png" />
+        <div>
+          <h1 className="Title">Slugnet hosted by UW Madison Extension</h1>
+          <h2 className="subTitle">by UW-Madison Entomology</h2>
+        </div>
+        <div className="Logos">
+          <img className='bickLabLogo' alt="Bick Lab Logo" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Bick_Lab_Logo.png" />
+          <img className="extensionLogo" alt="UW Extension Logo" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Extension_Logo.png" />
+
+        </div>
         
       </div>
       <Router>
@@ -32,7 +37,7 @@ function App() {
           </Routes>
         </div>
       </Router>
-  </div>
+    </div>
   );
 }
 
