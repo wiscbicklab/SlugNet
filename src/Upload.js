@@ -19,12 +19,9 @@ function Upload() {
 
   return (
     <div className="upload-container">
-      <h2>Upload a File</h2>
-      <input type="file" onChange={handleFileChange} />
-      <button onClick={handleUpload} disabled={!file}>
-        Upload
-      </button>
-      {file && <p>Selected File: {file.name}</p>}
+      <h2>Register for the SlugNet Program here</h2>
+      <h3>The Upload form must be filled out on the google forms website for technical reasons</h3>
+      <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeVP6tjcIM4QcWFbuL6Lm6NG9bKOlM6e3ObuUWcBPuyJvGncw/viewform?usp=header">Click Here</a> for Upload Form</p>
     </div>
   );
 }

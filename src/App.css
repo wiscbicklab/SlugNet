@@ -13,24 +13,23 @@ body {
   padding: 0;
 }
 
-h1 {
-  font-size: 25px;
-}
-
-h2 {
-  font-size: 15px;
-}
-
 .App {
+  background-color: var(--bg-color);
   text-align: center;
-  min-height: 100vh;
+  height: 100vh;
+  width: 98vw;
+}
+
+.Titles {
+  justify-self: left;
 }
 
 .Title {
   position: center;
-  text-align: center;
+  text-align: left;
   color: var(--alt-color);
-  margin: 10px, 10px, 0px, 10px;
+  margin: 0px, 10px, 0px, 10px;
+  max-width: 85vw;
 }
 
 .subTitle {
@@ -43,20 +42,18 @@ h2 {
   display: flex;  /* Enables horizontal layout */
   gap: 10px; /* Adds spacing between items */
   padding: 10px;
-  justify-content: center;
-  height: 10%;
+  height: 15vh;
+  justify-content: space-between;
 }
 
-.Logo {
-  max-height: 75px;
-  align-self: flex-end;
+.Logos {
+  display: grid;
+  height: 15vh;
+  justify-self: end;
 }
 
-
-
-.App-header {
-  padding: 20px;
-  background-color: var(--bg-color);
-  text-align: center;
-  width: 100%;
+.Logos *{
+  height: 6vh;
+  justify-self: center;
+  margin: 5px;
 }

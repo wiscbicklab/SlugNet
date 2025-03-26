@@ -32,8 +32,8 @@ function NavBar() {
         </button>
         <div className={`dropdown-content ${show ? "show" : "hide"}`}>
           <Link className='navLink' onClick={handleClose} to="/Home">Home</Link>
-          <Link className='navLink' onClick={handleClose} to="/FieldHistory">Field History</Link>
           <Link className='navLink' onClick={handleClose} to="/Register">Registration</Link>
+          <Link className='navLink' onClick={handleClose} to="/FieldHistory">Field History</Link>
           <Link className='navLink' onClick={handleClose} to="/Upload">Upload Photos</Link>
           <Link className='navLink' onClick={handleClose} to="/Map">View Map</Link>
           <Link className='navLink' onClick={handleClose} to="/About">About</Link>

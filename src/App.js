@@ -13,9 +13,9 @@ function App() {
   return (
     <div className={`App`}>
       <div className="Head">
-        <div>
+        <div className="Titles">
           <h1 className="Title">Slugnet hosted by UW Madison Extension</h1>
-          <h2 className="subTitle">by UW-Madison Entomology</h2>
+          <h4 className="subTitle">by UW-Madison Entomology</h4>
         </div>
         <div className="Logos">
           <img className='bickLabLogo' alt="Bick Lab Logo" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Bick_Lab_Logo.png" />

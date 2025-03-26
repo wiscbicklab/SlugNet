@@ -1,0 +1,22 @@
+
+* {
+    text-align: left;
+    justify-content: left;
+    justify-items: left;
+    justify-self: left;
+}
+
+h2 {
+    justify-self: center;
+    text-align: center;
+}
+
+
+#just-line-break {
+    white-space: pre-line;
+    margin: -10px;
+}
+  
+#line-break-and-tab {
+    white-space: pre-wrap;
+}
