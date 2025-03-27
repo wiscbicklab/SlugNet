@@ -16,10 +16,10 @@ function Home() {
           <li>
             <p>Read about the project <Link className='navLink' to="/About">Here</Link></p>
           </li>
-          <li>Register for Slugnet</li>
-          <li>Complete Field History Forms, one for each field</li>
+          <li><Link className='navLink' to="/Register">Register</Link> for Slugnet</li>
+          <li>Complete <Link className='navLink' to="/FieldHistory">Field History Forms</Link>, one for each field</li>
           <li>Setup Slug Traps in Fields</li>
-          <li>Starting 2 weeks before planting, Upload a photo of each of the traps your monitoring for a total of 10 weeks</li>
+          <li>Starting 2 weeks before planting, <Link className='navLink' to="/Upload">Upload a photo</Link> of each of the traps your monitoring for a total of 10 weeks</li>
           <li>Check out the website at the end of the study for information about the study</li>
         </ol>
       </div>

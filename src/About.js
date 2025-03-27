@@ -5,11 +5,11 @@ function About() {
     <div>
       <h2>About</h2>
       <div className="About">
-        <div>
+        <div className="Background">
           <h3>SlugNet Background</h3>
           <p>Slugs are becoming an increasingly challenging pest for Wisconsin farmers who use conservation cropping practices like no-till and cover crops. The increased adoption of these practices, coupled with milder winters and wetter springs projected for Wisconsin in the future, may amplify the impact of slugs as pests in field crops. To manage slugs more effectively in Wisconsin, we need to understand slug pressure across our state. To achieve this, the University of Wisconsin-Madison Extension is launching SlugNet, a statewide initiative to monitor slug populations in field crops. Data gathered through this network will contribute to the creation of open-access tools that can provide insights into the triggers for slug activity, help forecast the risk of damage in various regions across the state, and inform the level of management needed each season. Fields will be monitored using refuge traps. Refuge traps consist of 1-2ft white roofing shingles secured to the soil surface with stakes. These traps provide a refuge for slugs to hide under during the daylight.</p>
         </div>
-        <div>
+        <div className="Participation">
           <h3>Participation</h3>
           <p>We are targeting UW-Madison Extension Educators and Outreach Specialists, agronomists, and farmers across Wisconsin to help with this effort. Volunteers must check the traps and submit data weekly for 10 weeks (2 weeks prior to crop planting and 8 weeks after planting). To submit data, volunteers will take pictures of the underside of the shingle trap and submit the photos to the SlugNet web-based app, which will geotag the photo and quantify the slugs automatically. Volunteers must also submit a field management history survey for each field they monitor. Each volunteer must monitor a minimum of one field, but monitoring more fields is encouraged. This project is well-suited for volunteers who conduct frequent field visits or are engaged in on-farm research.</p>
         </div>

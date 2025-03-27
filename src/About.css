@@ -14,7 +14,7 @@ h2 {
     gap: 20px; /* Adds space between sections */
 }
 
-.Protocol, .Reporting, .TeamInfo {
+.Protocol, .Reporting, .TeamInfo, .Background, .Participation .FieldSelection{
     width: 99vw; /* Ensures they take up full width */
     display: flex;
     flex-direction: column;
