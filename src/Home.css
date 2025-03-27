@@ -3,9 +3,9 @@
     overflow: visible;
 }
 
-h2 {
-    justify-self: center;
-    text-align: center;
+.Home, .Welcome, .Instructions {
+    justify-self: left;
+    width: 99vw;
 }
 
 p {

@@ -15,7 +15,7 @@ h2 {
 }
 
 .Protocol, .Reporting, .TeamInfo {
-    width: 100%; /* Ensures they take up full width */
+    width: 99vw; /* Ensures they take up full width */
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Aligns content properly */
@@ -28,7 +28,7 @@ h2 {
 
 .Content {
     flex: 1; /* Allows it to grow and fill available space */
-    width: 100%; /* Ensures it takes up the full width */
+    width: 99vw; /* Ensures it takes up the full width */
     display: flex;
     flex-direction: column; /* Ensures children stack properly */
     align-items: center; /* Centers content horizontally */
