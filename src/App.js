@@ -14,7 +14,7 @@ function App() {
     <div className={`App`}>
       <div className="Head">
         <div className="Titles">
-          <h1 className="Title">Slugnet hosted by UW Madison Extension</h1>
+          <h1 className="Title">Slugnet</h1>
           <h4 className="subTitle">by UW-Madison Entomology</h4>
         </div>
         <div className="Logos">
@@ -27,7 +27,8 @@ function App() {
       <Router>
         <NavBar />
         <div className="Content">
-          <Routes>
+          <Routes >
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/register" element={<Register />} />
             <Route path="/fieldHistory" element={<FieldHistory />} />

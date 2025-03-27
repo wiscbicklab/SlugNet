@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import "./Home.css"
 import { Link } from 'react-router-dom';
 
 
@@ -7,17 +7,15 @@ function Home() {
   return (
     <div className="Home">
       <h2>Home</h2>
-      <p>
-        Welcome to the slugnet home page, this is where 
-        all content regaurding slugnet will be hosted
-      </p>
-      <p>
-        Want more information about this project:
-        <Link className='navLink' to="/About"> About</Link>
-      </p>
+      <div className="Welcome">
+        <h3>Welcome to the SlugNet Homepage</h3>
+      </div>
       <div className="Instructions">
         <h3>Instuctions</h3>
         <ol className="InstuctionList">
+          <li>
+            <p>Read about the project <Link className='navLink' to="/About">Here</Link></p>
+          </li>
           <li>Register for Slugnet</li>
           <li>Complete Field History Forms, one for each field</li>
           <li>Setup Slug Traps in Fields</li>

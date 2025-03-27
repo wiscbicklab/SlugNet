@@ -1,16 +1,14 @@
-
-
-
-
-
-.Instructions {
-    justify-self: left;
-    justify-content: left;
+* {
     text-align: left;
+    overflow: visible;
 }
 
-.InstructionList {
-    justify-self: left;
-    justify-content: left;
-    text-align: left;
+h2 {
+    justify-self: center;
+    text-align: center;
 }
+
+p {
+     margin: 0px ;
+}
+

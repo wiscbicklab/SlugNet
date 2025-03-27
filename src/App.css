@@ -5,6 +5,11 @@
   --alt-color: #c5050c;
 }
 
+* {
+  align-self: left;
+  align-content: left;
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -13,11 +18,15 @@ body {
   padding: 0;
 }
 
+p {
+  justify-self: left;
+}
+
 .App {
   background-color: var(--bg-color);
   text-align: center;
   height: 100vh;
-  width: 98vw;
+  width: 99vw;
 }
 
 .Titles {

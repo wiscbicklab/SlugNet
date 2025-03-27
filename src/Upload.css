@@ -1,8 +1,6 @@
-:root {
-  --bg-color: white;
-  --text-color: black;
-  --link-color: #007bff;
-  --alt-color: #c5050c;
+.UploadLink {
+  text-align: center;
+  justify-self: center;
 }
 
 
