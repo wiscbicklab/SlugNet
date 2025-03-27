@@ -3,17 +3,36 @@
     overflow: visible;
 }
 
-
 h2 {
     justify-self: center;
     text-align: center;
 }
 
-
 .About {
-    display:contents;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between sections */
 }
 
-.TeamInfo {
-    margin-top: 50px;
+.Protocol, .Reporting, .TeamInfo {
+    width: 100%; /* Ensures they take up full width */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns content properly */
+    justify-content: flex-start;
+    flex-grow: 1; /* Allows them to grow dynamically */
+    min-height: fit-content; /* Ensures they expand to fit their content */
+    padding-bottom: 20px; /* Prevents overlap */
+}
+
+
+.Content {
+    flex: 1; /* Allows it to grow and fill available space */
+    width: 100%; /* Ensures it takes up the full width */
+    display: flex;
+    flex-direction: column; /* Ensures children stack properly */
+    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start; /* Aligns content at the top */
+    min-height: 100vh; /* Makes sure it’s at least as tall as the viewport */
+    overflow: visible; /* Prevents content from being cut off */
 }

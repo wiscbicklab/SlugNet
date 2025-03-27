@@ -33,14 +33,14 @@ function About() {
             </ol>
           </div>
         </div>
-      </div>
-      <div className="TeamInfo">
-        <h3>Questions?</h3>
-        <p><b>Our team is here to help.</b></p>
-        <p>Dane Elmquist, dane.elmquist@wisc.edu</p>
-        <p>Laura Flandermeyer, laura.flandermeyer@wisc.edu</p>
-        <p>Jordan Kampa, jordan.kampa@wisc.edu</p>
-        <p>Dr. Emily Bick, ebick@wisc.edu</p>
+        <div className="TeamInfo">
+          <h3>Questions?</h3>
+          <p><b>Our team is here to help.</b></p>
+          <p>Dane Elmquist, dane.elmquist@wisc.edu</p>
+          <p>Laura Flandermeyer, laura.flandermeyer@wisc.edu</p>
+          <p>Jordan Kampa, jordan.kampa@wisc.edu</p>
+          <p>Dr. Emily Bick, ebick@wisc.edu</p>
+        </div>
       </div>
     </div>
   );

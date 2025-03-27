@@ -11,7 +11,7 @@ import About from './About';
 
 function App() {
   return (
-    <div className={`App`}>
+    <div className="App">
       <div className="Head">
         <div className="Titles">
           <h1 className="Title">Slugnet</h1>
