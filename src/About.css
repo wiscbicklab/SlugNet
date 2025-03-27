@@ -33,6 +33,5 @@ h2 {
     flex-direction: column; /* Ensures children stack properly */
     align-items: center; /* Centers content horizontally */
     justify-content: flex-start; /* Aligns content at the top */
-    min-height: 100vh; /* Makes sure it’s at least as tall as the viewport */
     overflow: visible; /* Prevents content from being cut off */
 }
