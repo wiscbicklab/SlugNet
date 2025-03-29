@@ -17,3 +17,7 @@ p {
     line-height: 1.2;
 }
 
+img {
+    max-height: 28.125vw;
+    max-width: 50vw;
+}
