@@ -7,6 +7,7 @@ import Register from './Register';
 import Upload from './Upload';
 import Map from './Map';
 import About from './About';
+import FAQ from './FAQ'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <Route path="/upload" element={<Upload />} />
             <Route path="/map" element={<Map />} />
             <Route path="/about" element={<About />} />
+            <Route path="/faq" element={<FAQ />} />
           </Routes>
         </div>
       </Router>
