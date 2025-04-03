@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://wiscbicklab.github.io/SlugNet",
+  "homepage": "https://slug-net.com",
   "eslintConfig": {
     "extends": [
       "react-app",

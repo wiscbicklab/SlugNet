@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <div className="Head">
         <div className="Titles">
-          <h1 className="Title">Slugnet</h1>
+          <h1 className="Title">SlugNet</h1>
           <h4 className="subTitle">by UW-Madison Entomology</h4>
         </div>
         <div className="Logos">
