@@ -5,10 +5,6 @@
   --alt-color: #c5050c;
 }
 
-* {
-  align-self: left;
-  align-content: left;
-}
 
 body {
   background-color: var(--bg-color);
@@ -19,8 +15,9 @@ body {
   overflow-x: hidden;
 }
 
-p {
-  justify-self: left;
+.Content *{
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .App {
@@ -52,18 +49,16 @@ p {
   display: flex;  /* Enables horizontal layout */
   gap: 10px; /* Adds spacing between items */
   padding: 10px;
-  height: 15vh;
+  height: 20vh;
   justify-content: space-between;
 }
 
 .Logos {
   display: grid;
-  height: 15vh;
+  height: 20vh;
   justify-self: end;
 }
 
-.Logos *{
-  height: 6vh;
-  justify-self: center;
-  margin: 5px;
+.Logos * {
+  height: 20vh;
 }

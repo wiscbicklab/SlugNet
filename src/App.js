@@ -8,6 +8,7 @@ import Upload from './Upload';
 import Map from './Map';
 import About from './About';
 import FAQ from './FAQ'
+import SlugFooter from './SlugFooter';
 
 
 function App() {
@@ -20,8 +21,6 @@ function App() {
         </div>
         <div className="Logos">
           <img className='bickLabLogo' alt="Bick Lab Logo" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Bick_Lab_Logo.png" />
-          <img className="extensionLogo" alt="UW Extension Logo" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Extension_Logo.png" />
-
         </div>
         
       </div>
@@ -40,6 +39,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <SlugFooter />
     </div>
   );
 }

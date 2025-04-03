@@ -1,0 +1,34 @@
+.Foot {
+    display: flex;  /* Enables horizontal layout */
+    gap: 10px; /* Adds spacing between items */
+    width: 100vw;
+    background-color: #457676;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.Foot div {
+    display: grid;
+}
+
+.Foot div * {
+    padding: 5px;
+}
+
+.Foot div img {
+    justify-self: center;
+}
+
+.Foot div .ExtensionLogo {
+    padding-left: 0px;
+}
+
+.Team {
+    justify-self: end;
+    padding-right: 20px;
+}
+
+.Team p {
+    padding: 0px
+}
+  

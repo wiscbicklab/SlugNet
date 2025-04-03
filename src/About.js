@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div>
+    <div className="Container">
       <h2>About</h2>
       <div className="About">
         <div className="Background">
@@ -31,7 +31,7 @@ function About() {
               <li>Traps should be checked in the morning (before noon) by lifting the shingle trap and turning it over, so the dark side of the shingle is upright. Take an overhead/aerial view photograph of the shingle bottom. Try to just capture the shingle in the photo frame (minimize the surface around the shingle).  Submit this photo to SlugNet.</li>
               <li>Reset the trap after submitting the photo to SlugNet. Do not remove the slugs.</li>
             </ol>
-            <iframe src="https://www.youtube.com/embed/L7DBYM03VW0" />
+            <iframe title="SlugTrapVideoWithEmilyBick" src="https://www.youtube.com/embed/L7DBYM03VW0" />
           </div>
         </div>
         <div className="TeamInfo">
