@@ -7,7 +7,6 @@ function SlugFooter() {
     return (
         <div className='Foot'>
             <div>
-                <img className='BickLabLogo' alt="Bick Lab Logo" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Bick_Lab_Logo.png" />
                 <img style={{height: 100 + "px"}} className="ExtensionLogo" alt="UW Extension Logo" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Extension_Logo.png" />
             </div>
             <div className="Team">
