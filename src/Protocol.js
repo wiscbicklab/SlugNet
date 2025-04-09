@@ -3,7 +3,7 @@ import "./Protocol.css";
 function About() {
   return (
     <div className="Container">
-      <h2>About</h2>
+      <h2>Protocol</h2>
       <div className="Protocol">
         <div className="Background">
           <h3>SlugNet Background</h3>
@@ -16,7 +16,7 @@ function About() {
         <div className="Protocol">
           <h3>Protocol</h3>
           <p>
-            <a href="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Protocol.pdf" download>Download Protocol PDF Here</a>
+            <a href="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Protocol.pdf">Download Protocol PDF Here</a>
           </p>
           <div className="FieldSelection">
             <h4>Field Selection Criteria</h4>
@@ -37,7 +37,7 @@ function About() {
             </ol>
             <iframe title="SlugTrapVideoWithEmilyBick" src="https://www.youtube.com/embed/L7DBYM03VW0" />
             <img 
-              src="https://https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Shingle_Trap_Photo_Tips.jpg" 
+              src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Shingle_Trap_Photo_Tips.jpg" 
               alt="Photo tips for shingle traps: Flip shinle over so the bottom is facing upwards and a take a top-down photo with a GPS enabled smartphone. Also attempt to minimize the amount of ground around the shingle in the photo, while making sure the entire shingle is in the photo."/>
           </div>
         </div>
