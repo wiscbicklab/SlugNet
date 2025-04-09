@@ -16,6 +16,8 @@ function SlugFooter() {
                 <p>Laura Flandermeyer, laura.flandermeyer@wisc.edu</p>
                 <p>Jordan Kampa, jordan.kampa@wisc.edu</p>
                 <p>Dr. Emily Bick, ebick@wisc.edu</p>
+                <h4>Issues with the website?</h4>
+                <p>Noah Olson, nwolson@wisc.edu</p>
             </div>
         </div>
     );

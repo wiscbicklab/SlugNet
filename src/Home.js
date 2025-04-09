@@ -16,7 +16,7 @@ function Home() {
         <h4>Instructions</h4>
         <ol className="InstuctionList">
           <li>
-            <p>Review the project's background and protocols <Link className='navLink' to="/About">Here</Link></p>
+            <p>Review the project's background and protocols <Link className='navLink' to="/Protocol">Here</Link></p>
           </li>
           <li><Link className='navLink' to="/Register">Register</Link> for Slugnet</li>
           <li>Complete <Link className='navLink' to="/FieldHistory">Field History Forms</Link>, one for each field that you are monitoring</li>
