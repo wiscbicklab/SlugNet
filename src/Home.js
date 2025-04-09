@@ -12,7 +12,8 @@ function Home() {
         <p>Slugs are becoming an increasingly challenging pest for Wisconsin farmers who use conservation cropping practices like no-till and cover crops. The increased adoption of these practices, coupled with milder winters and wetter springs projected for Wisconsin in the future, may amplify the impact of slugs as pests in field crops. To manage slugs more effectively in Wisconsin, we need to understand slug pressure across our state. To achieve this, the University of Wisconsin-Madison Extension is launching SlugNet, a statewide initiative to monitor slug populations in field crops.</p>
       </div>
       <div className="Instructions">
-        <h3>Instuctions</h3>
+        <h3>Want to Join the Project</h3>
+        <h4>Instructions</h4>
         <ol className="InstuctionList">
           <li>
             <p>Review the project's background and protocols <Link className='navLink' to="/About">Here</Link></p>

@@ -6,7 +6,7 @@ import FieldHistory from './FieldHistory';
 import Register from './Register';
 import Upload from './Upload';
 import Map from './Map';
-import About from './About';
+import Protocol from './Protocol';
 import FAQ from './FAQ'
 import SlugFooter from './SlugFooter';
 
@@ -17,7 +17,7 @@ function App() {
       <div className="Head">
         <div className="Titles">
           <h1 className="Title">SlugNet</h1>
-          <h4 className="subTitle">by UW-Madison Entomology</h4>
+          <h4 className="subTitle">by Bick Lab</h4>
         </div>
         <div className="Logos">
           <img className='bickLabLogo' alt="Bick Lab Logo" src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Bick_Lab_Logo.png" />
@@ -34,7 +34,7 @@ function App() {
             <Route path="/fieldHistory" element={<FieldHistory />} />
             <Route path="/upload" element={<Upload />} />
             <Route path="/map" element={<Map />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/protocol" element={<Protocol />} />
             <Route path="/faq" element={<FAQ />} />
           </Routes>
         </div>

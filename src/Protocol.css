@@ -9,8 +9,10 @@ h2 {
 }
 
 iframe {
-    height: 28.125vw;
-    width: 50vw;
+    height: 50.625vw;
+    width: 90vw;
+    max-height: 562.5px;
+    max-width: 1000px;
 }
 
 .About {

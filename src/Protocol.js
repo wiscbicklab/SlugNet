@@ -1,10 +1,10 @@
-import "./About.css";
+import "./Protocol.css";
 
 function About() {
   return (
     <div className="Container">
       <h2>About</h2>
-      <div className="About">
+      <div className="Protocol">
         <div className="Background">
           <h3>SlugNet Background</h3>
           <p>Slugs are becoming an increasingly challenging pest for Wisconsin farmers who use conservation cropping practices like no-till and cover crops. The increased adoption of these practices, coupled with milder winters and wetter springs projected for Wisconsin in the future, may amplify the impact of slugs as pests in field crops. To manage slugs more effectively in Wisconsin, we need to understand slug pressure across our state. To achieve this, the University of Wisconsin-Madison Extension is launching SlugNet, a statewide initiative to monitor slug populations in field crops. Data gathered through this network will contribute to the creation of open-access tools that can provide insights into the triggers for slug activity, help forecast the risk of damage in various regions across the state, and inform the level of management needed each season. Fields will be monitored using refuge traps. Refuge traps consist of 1-2ft white roofing shingles secured to the soil surface with stakes. These traps provide a refuge for slugs to hide under during the daylight.</p>
@@ -15,12 +15,16 @@ function About() {
         </div>
         <div className="Protocol">
           <h3>Protocol</h3>
+          <p>
+            <a href="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Protocol.pdf" download>Download Protocol PDF Here</a>
+          </p>
           <div className="FieldSelection">
             <h4>Field Selection Criteria</h4>
             <ol>
               <li>Fields should be planted to corn or soybean. Priority should be given to fields that utilize conservation cropping practices (e.g., cover crops/no-till), but conventionally managed fields (e.g., tillage) can be monitored as well. There is no minimum field size.</li>
               <li>Previous management history should be available. Volunteers should complete as much of the field management history survey as possible for each field monitored. </li>
             </ol>
+            <p></p>
           </div>
           <div className="Reporting">
             <h4>Slug Monitoring and Data Reporting</h4>
@@ -32,6 +36,9 @@ function About() {
               <li>Reset the trap after submitting the photo to SlugNet. Do not remove the slugs.</li>
             </ol>
             <iframe title="SlugTrapVideoWithEmilyBick" src="https://www.youtube.com/embed/L7DBYM03VW0" />
+            <img 
+              src="https://https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Shingle_Trap_Photo_Tips.jpg" 
+              alt="Photo tips for shingle traps: Flip shinle over so the bottom is facing upwards and a take a top-down photo with a GPS enabled smartphone. Also attempt to minimize the amount of ground around the shingle in the photo, while making sure the entire shingle is in the photo."/>
           </div>
         </div>
         <div className="TeamInfo">
@@ -41,6 +48,8 @@ function About() {
           <p>Laura Flandermeyer, laura.flandermeyer@wisc.edu</p>
           <p>Jordan Kampa, jordan.kampa@wisc.edu</p>
           <p>Dr. Emily Bick, ebick@wisc.edu</p>
+          <h3>Issues with the website?</h3>
+          <p>Noah Olson, nwolson@wisc.edu</p>
         </div>
       </div>
     </div>

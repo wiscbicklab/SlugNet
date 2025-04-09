@@ -5,6 +5,9 @@
   --alt-color: #c5050c;
 }
 
+h4 {
+  text-emphasis: normal;
+}
 
 body {
   background-color: var(--bg-color);
