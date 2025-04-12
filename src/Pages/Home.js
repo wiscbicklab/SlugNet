@@ -1,4 +1,4 @@
-import "./Home.css"
+import "../css/Home.css"
 import { Link } from 'react-router-dom';
 
 
@@ -25,11 +25,15 @@ function Home() {
           <li>Learn more about managing slugs in Wisconsin field crops <a target="_blank" href="https://cropsandsoils.extension.wisc.edu/articles/managing-slugs-in-wisconsin-field-crops/">Here</a></li>
         </ol>
       </div>
-      <div className="Slug Photos">
-        <img src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Gray_Garden_Slug.png" alt="Gray Garden Slug Image Failed to Load!"/>
-        <p>Gray Garden Slug</p>
-        <img src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Slug_Hiding_In_Crevice.png" alt="Gray Garden Slug Hidinng in Soil Crevice in Corn Field Failed to Load!" />
-        <p>Gray garden slug hiding in soil crevice in corn field</p>
+      <div className="SlugPhotos">
+        <div className="slug-item">
+          <img src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Gray_Garden_Slug.png" alt="Gray Garden Slug Image Failed to Load!"/>
+          <p>Gray Garden Slug</p>
+        </div>
+        <div className="slug-item">
+          <img src="https://raw.githubusercontent.com/wiscbicklab/SlugNet/refs/heads/main/public/Images/Slug_Hiding_In_Crevice.png" alt="Gray Garden Slug Hidinng in Soil Crevice in Corn Field Failed to Load!" />
+          <p>Gray garden slug hiding in soil crevice in corn field</p>
+        </div>
       </div>
     </div>
   );

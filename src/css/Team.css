@@ -1,0 +1,16 @@
+.Team {
+    justify-self: end;
+    padding-right: 20px;
+}
+
+.Team p {
+    padding: 0px;
+}
+
+.Team h3 {
+    margin: 5px;
+}
+
+.Team h4 {
+    margin: 5px;
+}

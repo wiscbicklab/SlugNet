@@ -1,4 +1,4 @@
-import './Auth.css';
+import '../css/Auth.css';
 
 function FieldHistory() {
 

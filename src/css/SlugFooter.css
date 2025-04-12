@@ -7,12 +7,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .Foot div {
     display: grid;
-}
-
-.Foot div * {
-    padding: 5px;
 }
 
 .Foot div img {
@@ -23,12 +20,12 @@
     padding-left: 0px;
 }
 
-.Team {
-    justify-self: end;
-    padding-right: 20px;
+.Foot a {
+    color: white;
+    text-decoration-color: white;
 }
 
-.Team p {
-    padding: 0px
+.Team * {
+    align-content: center;
+    align-items: center;
 }
-  

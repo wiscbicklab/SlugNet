@@ -1,5 +1,5 @@
 import React from 'react';
-import './Upload.css';
+import '../css/Upload.css';
 
 function Upload() {
   return (

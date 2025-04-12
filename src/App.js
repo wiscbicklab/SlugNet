@@ -1,13 +1,13 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+import './css/App.css';
 import NavBar from './NavBar';
-import Home from './Home';
-import FieldHistory from './FieldHistory';
-import Register from './Register';
-import Upload from './Upload';
-import Map from './Map';
-import About from './About';
-import FAQ from './FAQ'
+import Home from './Pages/Home';
+import FieldHistory from './Pages/FieldHistory';
+import Register from './Pages/Register';
+import Upload from './Pages/Upload';
+import Map from './Pages/Map';
+import About from './Pages/Protocol';
+import FAQ from './Pages/FAQ'
 import SlugFooter from './SlugFooter';
 
 

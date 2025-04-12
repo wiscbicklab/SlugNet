@@ -33,7 +33,7 @@
     font-size: 18px;
     color: var(--link-color);
     font-weight: bold;
-    background-color: #f8f9fa;
+    background-color: #aaa;
     padding: 12px;
     border-radius: 5px;
     display: block;
@@ -41,7 +41,7 @@
 
 .FAQ button:hover {
     text-decoration: underline;
-    background-color: #e9ecef;
+    background-color: #888;
 }
 
 .FAQ .mt-2 {

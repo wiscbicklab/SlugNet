@@ -1,4 +1,6 @@
-import "./About.css";
+import React from 'react';
+import Team from '../Elements/Team';
+import "../css/Protocol.css";
 
 function About() {
   return (
@@ -34,14 +36,7 @@ function About() {
             <iframe title="SlugTrapVideoWithEmilyBick" src="https://www.youtube.com/embed/L7DBYM03VW0" />
           </div>
         </div>
-        <div className="TeamInfo">
-          <h3>Questions?</h3>
-          <p><b>Our team is here to help.</b></p>
-          <p>Dane Elmquist, dane.elmquist@wisc.edu</p>
-          <p>Laura Flandermeyer, laura.flandermeyer@wisc.edu</p>
-          <p>Jordan Kampa, jordan.kampa@wisc.edu</p>
-          <p>Dr. Emily Bick, ebick@wisc.edu</p>
-        </div>
+        <Team />
       </div>
     </div>
   );
