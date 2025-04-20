@@ -14,3 +14,7 @@
 .Team h4 {
     margin: 5px;
 }
+
+.Team a:hover {
+    color: var(--alt-color-lighter);
+}

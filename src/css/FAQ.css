@@ -1,5 +1,5 @@
 .FAQ {
-    max-width: 600px;
+    max-width: 95vw;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     background-color: var(--bg-color);
@@ -23,25 +23,25 @@
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.FAQ button {
+.faq-button {
     background: none;
     border: none;
     padding: 10px;
-    width: 100%;
-    text-align: left;
+    justify-self: center;
+    text-align: center;
     cursor: pointer;
     font-size: 18px;
-    color: var(--link-color);
+    color: var(--alt-text-color);
     font-weight: bold;
-    background-color: #aaa;
+    background-color: var(--alt-color);
     padding: 12px;
     border-radius: 5px;
     display: block;
 }
 
-.FAQ button:hover {
+.faq-button:hover {
     text-decoration: underline;
-    background-color: #888;
+    background-color: var(--alt-color-darker);
 }
 
 .FAQ .mt-2 {
@@ -51,22 +51,26 @@
     color: var(--text-color);
 }
 
-.FAQ img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: contain;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
 .faq-content {
-    display: table;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(455px, 1fr)); /* responsive columns */
+    gap: 10px;
     margin-top: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
+    width:95vw;
+    box-sizing: border-box;
 }
+
+.faq-content img {
+    max-height: 75vh;
+    height: 650px
+}
+
+
+
 
 
 

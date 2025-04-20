@@ -1,7 +1,7 @@
  /* Navbar container */
  .navbar {
   width: 100vw;
-  background-color: #c5050c;
+  background-color: var(--alt-color);
   font-family: Arial;
   display: flex;
   justify-content: baseline;
@@ -37,7 +37,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #8b2e26;
+  background-color: var(--alt-color-darker);
 }
 
 /* Dropdown content base styling */

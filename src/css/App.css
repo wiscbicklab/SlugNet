@@ -2,7 +2,10 @@
   --bg-color: white;
   --text-color: black;
   --link-color: #007bff;
+  --alt-text-color: white;
   --alt-color: #c5050c;
+  --alt-color-darker: #8b2e26;
+  --alt-color-lighter: #f91d25;
 }
 
 
