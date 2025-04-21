@@ -6,7 +6,7 @@ import FieldHistory from './Pages/FieldHistory';
 import Register from './Pages/Register';
 import Upload from './Pages/Upload';
 import Map from './Pages/Map';
-import About from './Pages/Protocol';
+import Protocol from './Pages/Protocol';
 import FAQ from './Pages/FAQ'
 import SlugFooter from './SlugFooter';
 

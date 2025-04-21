@@ -32,6 +32,10 @@ iframe {
     padding-bottom: 20px; /* Prevents overlap */
 }
 
+.Reporting img {
+    max-width: 95vw;
+}
+
 
 .Content {
     flex: 1; /* Allows it to grow and fill available space */
