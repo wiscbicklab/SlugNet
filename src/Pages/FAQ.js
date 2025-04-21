@@ -83,7 +83,7 @@ function FAQ() {
                     <img alt={imageAlt["SlugNet_Home"]} src={imageSrc["SlugNet_Home"]} />
                     <img alt={imageAlt["Register_Cookies"]} src={imageSrc["Register_Cookies"]} />
                     <img alt={imageAlt["Register_Sign_In"]} src={imageSrc["Register_Sign_In"]} />
-                    <img alt={imageAlt["choose_Google_Account"]} src={imageSrc["Choose_Google_Account"]} />
+                    <img alt={imageAlt["Choose_Google_Account"]} src={imageSrc["Choose_Google_Account"]} />
                     <img alt={imageAlt["Google_Create_Account"]}  src={imageSrc["Google_Create_Account"]} />
                     <img alt={imageAlt["Google_Create_Name"]} src={imageSrc["Google_Create_Name"]} />
                     <img alt={imageAlt["Google_Create_Birthday_Gender"]} src={imageSrc["Google_Create_Birthday_Gender"]} />
@@ -109,7 +109,7 @@ function FAQ() {
                     <img alt={imageAlt["SlugNet_Home"]} src={imageSrc["SlugNet_Home"]} />
                     <img alt={imageAlt["Register_Cookies"]} src={imageSrc["Register_Cookies"]} />
                     <img alt={imageAlt["Register_Sign_In"]} src={imageSrc["Register_Sign_In"]} />
-                    <img alt={imageAlt["choose_Google_Account"]} src={imageSrc["Choose_Google_Account"]} />
+                    <img alt={imageAlt["Choose_Google_Account"]} src={imageSrc["Choose_Google_Account"]} />
                     <img alt={imageAlt["Google_Create_Account"]}  src={imageSrc["Google_Create_Account"]} />
                     <img alt={imageAlt["Google_Create_Name"]} src={imageSrc["Google_Create_Name"]} />
                     <img alt={imageAlt["Google_Create_Birthday_Gender"]} src={imageSrc["Google_Create_Birthday_Gender"]} />
