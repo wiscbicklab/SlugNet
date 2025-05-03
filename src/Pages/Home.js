@@ -16,14 +16,14 @@ function Home() {
         <h4>Instructions</h4>
         <ol className="InstuctionList">
           <li>
-            <p>Review the project's background and protocols <Link className='navLink' to="/Protocol">Here</Link></p>
+            <p>Review the project's <Link className='navLink' to="/Protocol">background and protocols</Link></p>
           </li>
           <li><Link className='navLink' to="/Register">Register</Link> for Slugnet</li>
           <li>Complete <Link className='navLink' to="/FieldHistory">Field History Forms</Link>, one for each field that you are monitoring</li>
           <li>Setup slug traps in fields</li>
           <li>Starting 2 weeks before planting, <Link className='navLink' to="/Upload">Upload A Photo</Link> of each of the traps you're monitoring for a total of 10 weeks</li>
           <li>Check out SlugNet or the UW-Madison Crops and Soils website’s Articles for weekly slug monitoring updates</li>
-          <li>Learn more about managing slugs in Wisconsin field crops <a target="_blank" href="https://cropsandsoils.extension.wisc.edu/articles/managing-slugs-in-wisconsin-field-crops/">Here</a></li>
+          <li>Learn more about managing slugs in Wisconsin field crops <a target="_blank" rel="noreferrer" href="https://cropsandsoils.extension.wisc.edu/articles/managing-slugs-in-wisconsin-field-crops/">Here</a></li>
         </ol>
       </div>
       <div className="SlugPhotos">

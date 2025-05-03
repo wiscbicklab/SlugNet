@@ -37,6 +37,8 @@ function NavBar() {
           <Link className='navLink' onClick={handleClose} to="/FieldHistory">Field History</Link>
           <Link className='navLink' onClick={handleClose} to="/Upload">Upload Photos</Link>
           <Link className='navLink' onClick={handleClose} to="/Map">View Map</Link>
+          <Link className='navLink' onClick={handleClose} to="/Faq">FAQ</Link>
+
           {/*<Link className='navLink' onClick={handleClose} to="/Faq">FAQ</Link>*/}
         </div>
       </div>
